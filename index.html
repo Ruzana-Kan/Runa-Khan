@@ -1,187 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Runa Khan - Executive Adviser & Creative Director</title>
-   <link rel="stylesheet" href="main.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Runa Khan — Executive Adviser & Creative Director</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="icon" href="maa.jpeg">
+<link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div><div class="blob b4"></div>
+<div id="prog"></div>
+<div class="cur-dot" id="cd"></div>
+<div class="cur-ring" id="cr"></div>
 
-    <header>
-        <nav class="container">
-            <a href="#" class="logo">Runa Khan</a>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#skills">Skills</a></li>
-            </ul>
-            <button class="mobile-menu-toggle" id="mobileMenuToggle">☰</button>
-        </nav>
-    </header>
+<header id="hdr">
+  <a href="#home" class="logo">Runa Khan</a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#contact" class="nav-cta">Contact</a></li>
+  </ul>
+  <button class="ham" id="ham" aria-label="Menu"><span></span><span></span><span></span></button>
+</header>
+<div class="mob-menu" id="mob">
+  <a href="#home">Home</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+</div>
 
-    <div class="mobile-menu" id="mobileMenu">
-        <ul class="mobile-nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+<section id="home">
+<div class="hero">
+  <div class="hero-left">
+    <div class="profile-wrap">
+      <div class="profile-ring"><div class="profile-inner"><img src="maa.jpeg"></div></div>
+      <div>
+        <span class="profile-role">Executive Adviser & Creative Director</span>
+        <div class="badge-row">
+          <span class="badge bv">Next IN</span>
+          <span class="badge bt">Dhaka,🇧🇩</span>
+          <span class="badge bp">8+ Years</span>
+        </div>
+      </div>
     </div>
+    <div class="eyebrow">Technology Leader & Strategist</div>
+    <h1>Runa <span class="it">Khan</span></h1>
+    <p class="hero-sub">Executive Adviser &amp; Creative Director at Next IN — shaping Bangladesh's digital landscape through bold strategy, brand development, and transformative leadership.</p>
+    <div class="hero-chips">
+      <a href="mailto:runa7khan@gmail.com" class="chip"><span class="chip-dot c1"></span>runa7khan@gmail.com</a>
+      <a href="tel:+880 1347-139237" class="chip"><span class="chip-dot c2"></span>+880 1347-139237</a>
+    </div>
+    <div class="hero-actions">
+      <a href="#experience" class="btn-p"><span>View Experience ↓</span></a>
+      <a href="mailto:runa7khan@gmail.com" class="btn-g"><span>Get In Touch</span></a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="stat-c"><div class="stat-n">1756</div><div class="stat-l">Followers &amp; Growing</div></div>
+    <div class="stat-c"><div class="stat-n">8+</div><div class="stat-l">Years Experience</div></div>
+    <div class="stat-c"><div class="stat-n">3+</div><div class="stat-l">Industries Served</div></div>
+  </div>
+</div>
+</section>
 
-    <section id="home" class="hero">
-        <div class="particles" id="particles"></div>
-        <div class="floating-shapes">
-            <div class="shape">🚀</div>
-            <div class="shape">💡</div>
-            <div class="shape">🎯</div>
-        </div>
-        <div class="hero-content">
-            <h1 class="typewriter">Runa Khan</h1>
-            <p class="hero-subtitle">Executive Adviser & Creative Director at Next IN</p>
-            <p class="hero-description">
-                Empowering Bangladesh's youth through technology education and digital innovation. 
-                Building a smarter, stronger Bangladesh with accessible, affordable tech education in Bangla.
-            </p>
-            <a href="#about" class="cta-button">Discover My Journey</a>
-        </div>
-    </section>
-   
+<div class="divider"></div>
 
-    <section id="about" class="container">
-        <h2 class="section-title">About Me</h2>
-        <div class="about-grid">
-            <div class="about-text">
-                <p>I am a passionate technology leader and educator based in Mirpur, Dhaka, Bangladesh. As the Executive Adviser and Creative Director at Next IN, I'm dedicated to revolutionizing tech education in Bangladesh by making coding, AI, and job-ready skills accessible to everyone, especially youth from rural areas.</p>
-                
-                <p>My journey spans diverse roles from digital marketing and social media management to executive leadership and education. I believe in the power of technology to transform lives and communities, and I'm committed to building a digitally empowered Bangladesh.</p>
-                
-                <p>With a background in both corporate and entrepreneurial environments, I bring a unique perspective to technology education and digital transformation initiatives.</p>
-            </div>
-            <div class="about-stats">
-                <div class="stat-card">
-                    <div class="stat-number">1,141</div>
-                    <div>Followers</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">8+</div>
-                    <div>Years Experience</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">Multiple</div>
-                    <div>Industries</div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section id="about" class="section">
+  <div class="sec-hd reveal">
+    <span class="sec-num">01 — About</span>
+    <h2 class="sec-title">Building <em>Bangladesh's</em><br>Digital Future</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>I am a technology leader and strategist based in Mirpur, Dhaka. As Executive Adviser and Creative Director at Next IN, I shape the platform's brand, content direction, and long-term vision — empowering Bangladesh's next generation of digital professionals.</p>
+      <p>My career spans digital marketing, social media strategy, executive leadership, and entrepreneurship. I founded Runa's Technology, delivering results-driven digital solutions for businesses across industries.</p>
+      <p>I believe technology is the most powerful equalizer of our generation — and I am committed to ensuring every Bangladeshi has full access to it and the opportunities it creates.</p>
+      <div class="contact-block">
+        <div class="cb-head">Direct Contact</div>
+        <a href="phone:+880 1347-139237" class="contact-row">
+          <div class="c-icon">📞</div>
+          <div><span class="c-label">Phone</span><span class="c-value">+880 1347-139237</span></div>
+          <span class="c-arr">→</span>
+        </a>
+        <a href="mailto:runa7khan@gmail.com" class="contact-row">
+          <div class="c-icon">✉</div>
+          <div><span class="c-label">Email</span><span class="c-value">runa7khan@gmail.com</span></div>
+          <span class="c-arr">→</span>
+        </a>
+      </div>
+    </div>
+    <div class="about-cards reveal">
+      <div class="acard"><div class="card-n">1756<sup>+</sup></div><div class="card-lbl">Professional Followers</div><div class="card-desc">Growing community across LinkedIn, YouTube &amp; X</div></div>
+      <div class="acard"><div class="card-n">8<sup>+</sup></div><div class="card-lbl">Years in Tech &amp; Marketing</div><div class="card-desc">Corporate, freelance &amp; entrepreneurial experience</div></div>
+      <div class="acard"><div class="card-n">5<sup>+</sup></div><div class="card-lbl">Platforms &amp; Companies</div><div class="card-desc">Fiverr, Upwork, Next IN, ChamCash, SahayPlus</div></div>
+    </div>
+  </div>
+</section>
 
-    <section id="experience" style="background: #f8f9fa;">
-        <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
-            <div class="experience-grid">
-                <div class="experience-card">
-                    <h3 class="experience-title">Executive Adviser & Creative Director</h3>
-                    <p class="experience-company">Next IN Technology Platform</p>
-                    <p class="experience-description">Leading creative direction and strategic advisory for Bangladesh's premier tech education platform, focusing on accessible coding and AI education in Bangla.</p>
-                </div>
-                
-                <div class="experience-card">
-                    <h3 class="experience-title">Chief Executive Officer (CEO) & Founder</h3>
-                    <p class="experience-company">Runa's Technology</p>
-                    <p class="experience-description">Founded and led a technology company, driving innovation and digital solutions for local businesses and communities.</p>
-                </div>
-                
-                <div class="experience-card">
-                    <h3 class="experience-title">Social Media Manager</h3>
-                    <p class="experience-company">SahayPlus BD earning Platform</p>
-                    <p class="experience-description">Managed social media presence and digital marketing strategies for an educational technology platform.</p>
-                </div>
-                
-                <div class="experience-card">
-                    <h3 class="experience-title">Digital Marketing Specialist</h3>
-                    <p class="experience-company">Freelancer at Fiverr & Upwork</p>
-                    <p class="experience-description">Provided digital marketing services to international clients, specializing in social media marketing and online brand development.</p>
-                </div>
-                
-                <div class="experience-card">
-                    <h3 class="experience-title">Online Marketing Specialist</h3>
-                    <p class="experience-company">Self Employed</p>
-                    <p class="experience-description">Developed and executed comprehensive online marketing strategies for various businesses and personal brands.</p>
-                </div>
-                
-                <div class="experience-card">
-                    <h3 class="experience-title">Former Chess Player</h3>
-                    <p class="experience-company">Facebook Gaming</p>
-                    <p class="experience-description">Engaged in competitive chess gaming, developing strategic thinking and problem-solving skills.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="divider"></div>
 
-    <section id="skills" class="container">
-        <h2 class="section-title">Skills & Expertise</h2>
-        <div class="skills-grid">
-            <div class="skill-category">
-                <h3>Digital Marketing</h3>
-                <ul class="skill-list">
-                    <li>Social Media Marketing</li>
-                    <li>Content Strategy</li>
-                    <li>Brand Development</li>
-                    <li>Online Advertising</li>
-                </ul>
-            </div>
-            
-            <div class="skill-category">
-                <h3>Leadership</h3>
-                <ul class="skill-list">
-                    <li>Executive Advisory</li>
-                    <li>Strategic Planning</li>
-                    <li>Team Management</li>
-                    <li>Business Development</li>
-                </ul>
-            </div>
-            
-            <div class="skill-category">
-                <h3>Technology</h3>
-                <ul class="skill-list">
-                    <li>EdTech Innovation</li>
-                    <li>AI & Coding Education</li>
-                    <li>Platform Development</li>
-                    <li>Digital Transformation</li>
-                </ul>
-            </div>
-            
-            <div class="skill-category">
-                <h3>Creative Direction</h3>
-                <ul class="skill-list">
-                    <li>Creative Strategy</li>
-                    <li>Content Creation</li>
-                    <li>Visual Communication</li>
-                    <li>Brand Storytelling</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+<section id="experience" class="section-full">
+<div class="sec-inner">
+  <div class="sec-hd reveal">
+    <span class="sec-num">02 — Experience</span>
+    <h2 class="sec-title">Professional <em>Record</em></h2>
+  </div>
+  <div class="exp-grid">
+    <div class="exp-card reveal"><div class="exp-n">01</div><div class="exp-icon">🎯</div><h3 class="exp-title">Executive Adviser & Creative Director</h3><p class="exp-co">Next IN Technology Platform</p><p class="exp-desc">Leading creative strategy and executive advisory for Bangladesh's premier tech platform. Driving content direction, brand positioning, and platform growth.</p></div>
+    <div class="exp-card reveal"><div class="exp-n">02</div><div class="exp-icon">🚀</div><h3 class="exp-title">CEO & Founder</h3><p class="exp-co">Runa's Technology</p><p class="exp-desc">Founded and scaled a technology company delivering digital solutions for local businesses. Responsible for product vision, business development, and operational leadership.</p></div>
+    <div class="exp-card reveal"><div class="exp-n">03</div><div class="exp-icon">📱</div><h3 class="exp-title">Social Media Manager</h3><p class="exp-co">SahayPlus BD Earning Platform</p><p class="exp-desc">Owned social media strategy and execution for a leading earning platform. Grew organic engagement and maintained vibrant community health across all channels.</p></div>
+    <div class="exp-card reveal"><div class="exp-n">04</div><div class="exp-icon">⭐</div><h3 class="exp-title">Golden Social Media Manager</h3><p class="exp-co">Champ Cash</p><p class="exp-desc">Led social media presence and team management. Recognized with Golden designation for outstanding performance and measurable community growth.</p></div>
+    <div class="exp-card reveal"><div class="exp-n">05</div><div class="exp-icon">🌐</div><h3 class="exp-title">Digital Marketing Specialist</h3><p class="exp-co">Freelancer — Fiverr &amp; Upwork</p><p class="exp-desc">Delivered international digital marketing engagements specializing in social media growth, paid campaigns, and brand development for global clients.</p></div>
+    <div class="exp-card reveal"><div class="exp-n">06</div><div class="exp-icon">💡</div><h3 class="exp-title">Online Marketing Specialist</h3><p class="exp-co">Self Employed</p><p class="exp-desc">Independently developed and executed comprehensive digital marketing strategies across industries, building a strong portfolio of business brands.</p></div>
+</div>
+</section>
 
+<div class="divider"></div>
 
-            
-            <div class="social-links">
-                <a href="https://www.linkedin.com/in/runa-s-technology/" class="social-link" target="_blank">in</a>
-                <a href="#" class="social-link">📧</a>
-                <a href="https://x.com/Runa02250631?fbclid=IwY2xjawLWcNRleHRuA2FlbQIxMABicmlkETFpVHYxWERjRmwzRVBBVUJtAR6G7cKtkp-0sECxNPVr5_MFGjVD39XhDGizvvc58CiqdMX_hE1wOH2fHmTazA_aem_179t2gbYzopxT7HKKO-Ksg" class="social-link">X</a>
-                <a href="https://www.youtube.com/@Runa1836-t1k" class="social-link" target="_blank">Yt</a>
-            </div>
-        </div>
-    </section>
-<br>
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Runa Khan. Building a smarter, stronger Bangladesh with technology. 🇧🇩</p>
-        </div>
-    </footer>
+<section id="skills" class="section">
+  <div class="sec-hd reveal">
+    <span class="sec-num">03 — Skills</span>
+    <h2 class="sec-title">Core <em>Competencies</em></h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-cat reveal"><div class="skill-top"><span class="skill-icon">📣</span><h3 class="skill-name">Digital Marketing</h3></div><ul class="skill-list"><li>Social Media Marketing</li><li>Content Strategy</li><li>Brand Development</li><li>Online Advertising</li></ul></div>
+    <div class="skill-cat reveal"><div class="skill-top"><span class="skill-icon">👑</span><h3 class="skill-name">Leadership</h3></div><ul class="skill-list"><li>Executive Advisory</li><li>Strategic Planning</li><li>Team Management</li><li>Business Development</li></ul></div>
+    <div class="skill-cat reveal"><div class="skill-top"><span class="skill-icon">💻</span><h3 class="skill-name">Technology</h3></div><ul class="skill-list"><li>Platform Strategy</li><li>Digital Transformation</li><li>Product Vision</li><li>Tech Ecosystem</li></ul></div>
+    <div class="skill-cat reveal"><div class="skill-top"><span class="skill-icon">🎨</span><h3 class="skill-name">Creative Direction</h3></div><ul class="skill-list"><li>Creative Strategy</li><li>Content Creation</li><li>Visual Communication</li><li>Brand Storytelling</li></ul></div>
+  </div>
+</section>
 
-    <script src="main.js"></script>
+<div class="divider"></div>
+
+<section id="contact" class="social-sec">
+  <div class="sec-hd reveal">
+    <span class="sec-num">04 — Connect</span>
+    <h2 class="sec-title">Find Me <em>Online</em></h2>
+  </div>
+  <div class="social-grid reveal">
+    <a href="https://www.linkedin.com/in/runa-s-technlogy/" class="soc-link" target="_blank" rel="noopener"><span class="soc-icon"><i class="fa-brands fa-linkedin"></i></span><span class="soc-txt">LinkedIn</span></a>
+    <a href="mailto:runa7khan@gmail.com" class="soc-link"><span class="soc-icon">✉</span><span class="soc-txt">Email</span></a>
+    <a href="https://x.com/Runa02250631" class="soc-link" target="_blank" rel="noopener"><span class="soc-icon">✕</span><span class="soc-txt">Twitter / X</span></a>
+    <a href="https://www.youtube.com/@Runa1836-t1k" class="soc-link" target="_blank" rel="noopener"><span class="soc-icon">▶</span><span class="soc-txt">YouTube</span></a>
+    <a href="tel:+880 1347-139237" class="soc-link"><span class="soc-icon"><i class="fa-solid fa-phone"></i></span><span class="soc-txt">Phone</span></a>
+    <a href="https://www.facebook.com/Runakha.rk/" class="soc-link" target="_blank" rel="noopener"><span class="soc-icon"><i class="fa-brands fa-facebook-f"></i></span><span class="soc-txt">Facebook</span></a>
+    <a href="https://www.instagram.com/runa7khan?igsh=MWg3bmtzanZuOWNwYQ==" class="soc-link" target="_blank" rel="noopener"><span class="soc-icon"><i class="fa-brands fa-instagram"></i></span><span class="soc-txt">Instagram</span></a>
+  </div>
+</section>
+
+<footer>
+  <p class="fc">&copy; 2025 <strong>Runa Khan</strong>. All rights reserved.</p>
+  <span class="fc">🇧🇩 Mirpur, Dhaka, Bangladesh</span>
+</footer>
+<script src="main.js"></script>
 </body>
 </html>
